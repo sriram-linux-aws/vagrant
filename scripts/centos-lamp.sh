@@ -4,7 +4,7 @@
 yum update -y --exclude=kernel
 
 # Install tools
-yum install -y git nano unzip screen
+sudo yum install -y git nano unzip screen wget
 
 # Install Apache
 yum install -y httpd httpd-devel httpd-tools
@@ -35,5 +35,5 @@ sudo -u vagrant wget -q https://raw.githubusercontent.com/sriram-linux-aws/vagra
 sudo -u vagrant wget -q https://raw.githubusercontent.com/sriram-linux-aws/vagrant/master/files/info.php
 
 
-service http restart
+service httpd restart
 
