@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat c:\Users\ramu/projects/ubuntu-trusty64/control.pub >> /home/vagrant/.ssh/authorized_keys
+cat c:/Users/ramu/projects/ubuntu-trusty64/control.pub >> /home/vagrant/.ssh/authorized_keys
